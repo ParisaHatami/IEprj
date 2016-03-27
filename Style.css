@@ -14,7 +14,7 @@ body {
     width:880px;
     height:380px;
     margin:70px auto;
-    background-color:#f6d4a8;
+    background : #daeaf0 url(image/bg.jpg) repeat;
 }
 .callBack li{
     list-style:none;
