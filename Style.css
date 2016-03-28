@@ -14,7 +14,7 @@ body {
     width:880px;
     height:380px;
     margin:70px auto;
-    background-color:#f6d4a8;
+    background : #daeaf0 url(image/bg.jpg) repeat;
 }
 .callBack li{
     list-style:none;
@@ -83,7 +83,7 @@ li{
 .footer {
     width: 100%;
     height: 60px;
-    background: #6f6f6f url(image/footer.jpg) repeat-x;
+    background: #6f6f6f url(image/footer_red.jpg) repeat-x;
     float: left;
     font : bold 12px tahoma,verdana ;
   /*  position:absolute;*/
@@ -92,6 +92,29 @@ li{
     margin-top: 70px;
 }
 
+.footer_login {
+    width: 100%;
+    height: 60px;
+    background: #6f6f6f url(image/footer_blue.jpg) repeat-x;
+    float: left;
+    font : bold 12px tahoma,verdana ;
+  /*  position:absolute;*/
+    color:#000000;
+    text-align:center;
+    margin-top: 70px;
+}
+
+.footer_signup {
+    width: 100%;
+    height: 60px;
+    background: #6f6f6f url(image/footer_green.jpg) repeat-x;
+    float: left;
+    font : bold 12px tahoma,verdana ;
+  /*  position:absolute;*/
+    color:#000000;
+    text-align:center;
+    margin-top: 70px;
+}
 /* contact us */
 
 .hashie_top {
@@ -109,7 +132,6 @@ li{
     left:50%;
 }
 .button {
-    background: #977a56 url(image/btn1.jpg) repeat;
     border-radius:8px;
     border: none;
     color: #ffd3d3;
@@ -121,7 +143,17 @@ li{
     margin: 24px auto;
     cursor: pointer;
 }
-.button1 {
+.button1 {	
+    background: #977a56 url(image/btn1.jpg) repeat;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 8px 0 rgba(0,0,0,0.19);
+}
+.button_login {	
+    background: #977a56 url(image/footer_blue.jpg) repeat;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 8px 0 rgba(0,0,0,0.19);
+}
+
+.button_signup {	
+    background: #977a56 url(image/footer_green.jpg) repeat;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 8px 0 rgba(0,0,0,0.19);
 }
 .button:hover{
