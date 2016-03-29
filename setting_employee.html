@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 
     <link href="Style.css" rel="stylesheet" type="text/css" />
-    <title>ورود به حساب کاربری</title>
+    <title> ثبت نام کارجو</title>
 
 
 </head>
@@ -40,13 +40,12 @@
             </ul>
         </span>
     </div>
-
-	<span class="main">
+<span class="main">
     
     <div class="hashie_top" align="center"></div>
     <div class="contact" align="center">
-        <form action="profile.html">
-            <label for="user">نام کاربری</label>
+        <form action="action_page.php">
+            <label for="user"></label>
             <br />
             <input type="text" id="user_name" name="username">
             <br />
@@ -54,9 +53,21 @@
             <br />
             <input type="password" id="pass_word" name="password">
             <br />
-            
+            <label for="passagain">تکرار رمز عبور</label>
             <br />
-            <button type="submit" name="submit" value="register" class="button button_login">ورود</button>
+            <input type="password" id="pass_word_again" name="passwordagain">
+            <br />
+            <label for="fname"> نام</label>
+            <br />
+            <input type="text" id="first_name" name="firstname">
+            <br />
+            <label for="lname"> نام خانوادگی</label>
+            <br />
+            <input type="text" id="last_name" name="lastname">
+            <br />
+           
+            <br />
+            <button type="submit" name="submit" value="register" class="button button_signup">ورود</button>
         </form>
     </span>
     <div class="hashie_bottom" align="center"></div>
@@ -64,7 +75,7 @@
     
     </div>
 
-    <div class="footer_login">
+    <div class="footer_signup">
         <br />
         <br />
 
