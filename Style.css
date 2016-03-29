@@ -76,9 +76,116 @@ li{
     color:#807e7e
 }
 
-.userlog {
-	
-	}
+/* ........dropdown............*/
+.clearfix:after {
+    display:block;
+    clear:both;
+}
+ 
+/*----- Menu Outline -----*/
+#menu-wrap {
+   width:100%;
+    height:100px;
+    font : bold 12px tahoma,verdana ;
+    background-color:#ffffff;
+    margin:0 auto;
+}
+ 
+.menu {
+	float:right;
+	font : 12px tahoma,verdana;  
+    margin:10px 60px auto;
+}
+ 
+.menu li {
+    margin:0px;
+    list-style:none;
+    float:right;
+    padding:0 0 0 5px;
+	font : 12px tahoma,verdana;  
+   
+}
+ 
+.menu a {
+	padding:5px;
+    transition:all 0.3s ease-in-out;
+   	font : 12px tahoma,verdana;  
+    
+}
+ 
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+	font : 12px tahoma,verdana;  
+   
+}
+ 
+.menu .arrow {
+    font-size:12px;
+    line-height:0%;
+}
+ 
+/*----- Top Level -----*/
+.menu > ul > li {
+    float:right;
+    display:inline-block;
+    position:relative;
+    font : 12px tahoma,verdana;  
+   
+}
+ 
+.menu > ul > li > a {
+    padding:10px 5px;
+    display:inline-block;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+	font : 12px tahoma,verdana;  
+   
+}
+ 
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    /*background:#807e7e;*/
+	font : 12px tahoma,verdana;  
+   
+}
+ 
+/*----- Bottom Level -----*/
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+ 
+.sub-menu {
+    width:150px;
+    padding:5px;
+    position:absolute;
+    top:100%;
+    right:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    background:#ffffff;
+	font : 12px tahoma,verdana; 
+}
+ 
+.sub-menu li {
+    display:block;
+    font : 12px tahoma,verdana; 
+}
+ 
+.sub-menu li a {
+    padding:10px;
+    display:block;
+	font : 12px tahoma,verdana; 
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:none;
+	font: bold;
+}
+
+/*.............................*/
+
+
+
 /* footer */
 .footer {
     width: 100%;
