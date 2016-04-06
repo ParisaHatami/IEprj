@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 
     <link href="Style.css" rel="stylesheet" type="text/css" />
-  
+  	
     <title> تنظیمات</title>
 
 
@@ -41,13 +41,10 @@
     <div class="dropdown-menu">
     	<span class="menu" style="margin-top:10px">
         	<ul class="clearfix">
-            	<li><a href="#"> پروژه ها <span class="arrow">&#9660;</span></a>
-                	<ul class="sub-menu">
-                    	<li><a href="#">آخرین پروژه</a></li>
-                    	<li><a href="#">پروژه های تمام شده</a></li>                    
-                	</ul>
-            	</li>
-           		<li><a href="#"> کاربران</a></li>
+            	<li><a href="#personal_info">  اطلاعات شخصی </a></li>
+                <li><a href="#exprience_info"> سوابق</a></li>
+                <li><a href="#education_info"> تحصیلات</a></li>                    
+           		<li><a href="#skill_info">  توانایی ها</a></li>
                 <li><a href="#"> درخواست کار<span class="arrow">&#9660;</span></a>
                 	<ul class="sub-menu">
                     	<li><a href="#"> آخرین درخواستها</a></li>
@@ -65,8 +62,91 @@
     </div>
   
 	<span class="main">
-    			
-    </div>
+    	
+    <div class="contact" id="personal_info" align="center">
+        <form action="dashboard.html">
+        	<h2> تغییر اطلاعات شخصی<br/> </h2>
+            
+        	<div class="hashie_top" align="center"></div>
+            
+            <label for="user">نام کاربری</label>
+            <br />
+            <input type="text" id="user_name" name="username">
+            <br />
+            <label for="pass">رمز عبور جدید</label>
+            <br />
+            <input type="password" id="pass_word" name="password">
+            <br />
+            <label for="passagain">تکرار رمز عبور</label>
+            <br />
+            <input type="password" id="pass_word_again" name="passwordagain">
+            <br />
+            <label for="fname"> نام</label>
+            <br />
+            <input type="text" id="first_name" name="firstname">
+            <br />
+            <label for="lname"> نام خانوادگی</label>
+            <br />
+            <input type="text" id="last_name" name="lastname">
+            <br />
+            <label for="address"> آدرس</label>
+            <br />
+            <input type="text" id="address" name="address">
+            <br />
+            <label for="tel"> شماره تماس</label>
+            <br />
+            <input type="text" id="tel" name="tel">
+            <br />
+            <label for="email"> ایمیل</label>
+            <br />
+            <input type="text" id="email" name="email">
+            <br />
+            <label for="web"> وب سایت</label>
+            <br />
+            <input type="text" id="website" name="website">
+            <br />
+            
+            
+            <button type="submit" name="submit" value="register" class="button button_signup"> ذخیره تغییرات</button>
+        </form>
+	
+    	<div class="hashie_bottom" align="center"></div>
+		</div>
+            
+        <div class="contact" id="exprience_info" align="center">
+        <form action="dashboard.html">
+        	<h2> تغییر سوابق کاری<br/> </h2>
+            
+        	<div class="hashie_top" align="center"></div>
+            
+            <label for="startyear"> سال شروع</label>
+            <br />
+            <input type="text" id="start_year" name="startyear">
+            <br />
+           <label for="title"> عنوان</label>
+            <br />
+            <input type="text" id="title_jop" name="title">
+            <br />
+            <label for="leight"> مدت دوره</label>
+            <br />
+            <input type="text" id="leight" name="leight">
+            <br />
+            <label for="discip"> شرح وظیفه</label>
+            <br />
+            <br />
+            <textarea></textarea>
+            <br />
+            
+            
+            <button type="submit" name="submit" value="register" class="button button_signup"> افزودن</button>
+        </form>
+    <div class="hashie_bottom" align="center"></div>
+        </div>
+        <div id="education_info">
+        </div>
+        <div id="skill_info">
+        </div>
+    </span>
 
     <div class="footer_signup">
         <br />
