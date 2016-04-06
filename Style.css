@@ -3,21 +3,22 @@
     padding:0;
 }
 body {
-    background : #daeaf0 url(image/bg.jpg) repeat;
-    font :12px tahoma,verdana ;
-    line-height:20px;
-    direction:rtl;
+    background : #daeaf0 url(image/bg.jpg) repeat ;
+    font :12px tahoma,verdana  ;
+    line-height:20px ;
+    direction:rtl ;
+	
 }
 /* slide show */
 .main{
     /*max-width:880px;*/
-    width:880px;
-    height:380px;
-    margin:70px auto;
-    background : #daeaf0 url(image/bg.jpg) repeat;
+    width:880px ;
+    height:380px ;
+    margin:20px auto ;
+    background : #daeaf0 url(image/bg.jpg) repeat ;
 }
 .callBack li{
-    list-style:none;
+    list-style:none ;
 }
 .callBack_nav{
     position:absolute;
@@ -37,8 +38,8 @@ body {
 }
 /* header */
 a{
-    color:#807e7e;
-    text-decoration:none;
+    color:#807e7e ;
+    text-decoration:none ;
 }
 #Navbar{
     width:100%;
@@ -190,50 +191,122 @@ li{
 	height:150px;
 	border:outset #807e7e;
 	}
+	
+.entry
+{
+	width:100%;
+	float:right;
+	padding-top:11px;
+	margin-left:38px;
+	margin-bottom:15px;
+	
+	}
+.entry h2 {
+	color: #2A3FFF; 	
+	}
+.entry a{
+	color:#000000;
+    text-decoration:none;
+	}
+div.content {
+	clear: both;
+	padding:0;
+	margin:0;
+	overflow: hidden;
+	display:block;
+	padding-top:32px;
+}
+ul.skills {
+	margin:0;
+	padding:0;
+	float:right;
+	width:100%;
+	margin-right:40px;
+	margin-top:-6px;
+	list-style-type: none;
+	
+}
+
+ul.skills li {
+	margin:0;
+	padding:0;
+	float:right;
+	width:100%;
+	background-image:url(image/bullet.gif);
+	background-repeat: no-repeat;
+	padding-right:10px;
+	background-position: right;
+	margin-top:6px;
+}
 
 /* SELF INFORMATION */
 /* ----------------------------------------- */
-
 .self {
-	width:250px;
+	width:100%;
 	float:right;
 	padding-top:11px;
 	margin-left:38px;
 	margin-bottom:15px;
 }
+.self h2 {
+	color: #2A3FFF; 
+	
+	}
 
 .self ul {
 	padding-top: 10px;
 }
 
 .self ul li.ad {
-	background-image:url(../images/icn-ad.gif);
+	background-image:url(image/icn-ad.gif);
 }
 
 .self ul li.mail {
-	background-image:url(../images/icn-mail.gif);
+	background-image:url(image/icn-mail.gif);
 }
 
 .self ul li.tel {
-	background-image:url(../images/icn-tel.gif);
+	background-image:url(image/icn-tel.gif);
 }
 
 .self ul li.web {
-	background-image:url(../images/icn-web.gif);
+	background-image:url(image/icn-web.gif);
 }
-/*
+
 .self ul li {
 	background-repeat: no-repeat;
-	padding-left:26px;
-	background-position: 0 .1em;
+	background-position:right;
+	padding-right:26px;
 	height:25px;
 	display:block;
 	margin-top:-2px;
-}*/
+}
 
 /*...............*/
+.resume {
+	background-image:url(image/icn-resume.png);
+	background-repeat: no-repeat;
+	background-position:right;
+	padding-right:26px;
+	height:25px;
+	display:block;
+	margin-top:-2px;
+	}
+.setting
+{
+	background-image:url(image/icn-setting.png);
+	background-repeat: no-repeat;
+	background-position:right;
+	padding-right:26px;
+	height:25px;
+	display:block;
+	margin-top:-2px;
+	}
+/*............................*/
 
+/*..........Tab.......*/
 
+/*.....................*/
 /* footer */
 .footer {
     width: 100%;
@@ -262,16 +335,16 @@ li{
 }
 
 .footer_signup {
-    width: 100%;
-    height: 60px;
-	z-index:-5;
-    background: #6f6f6f url(image/footer_green.jpg) repeat-x;
-    float: left;
+    width: 100% ;
+    height: 60px ;
+	z-index:-5 ;
+    background: #6f6f6f url(image/footer_green.jpg) repeat-x ;
+    float: left ;
     font : bold 12px tahoma,verdana ;
   /*  position:absolute;*/
-    color:#000000;
-    text-align:center;
-    margin-top: 70px;
+    color:#000000 ;
+    text-align:center ;
+    margin-top: 70px ;
 }
 /* contact us */
 
