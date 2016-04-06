@@ -191,6 +191,46 @@ li{
 	border:outset #807e7e;
 	}
 
+/* SELF INFORMATION */
+/* ----------------------------------------- */
+
+.self {
+	width:250px;
+	float:right;
+	padding-top:11px;
+	margin-left:38px;
+	margin-bottom:15px;
+}
+
+.self ul {
+	padding-top: 10px;
+}
+
+.self ul li.ad {
+	background-image:url(../images/icn-ad.gif);
+}
+
+.self ul li.mail {
+	background-image:url(../images/icn-mail.gif);
+}
+
+.self ul li.tel {
+	background-image:url(../images/icn-tel.gif);
+}
+
+.self ul li.web {
+	background-image:url(../images/icn-web.gif);
+}
+/*
+.self ul li {
+	background-repeat: no-repeat;
+	padding-left:26px;
+	background-position: 0 .1em;
+	height:25px;
+	display:block;
+	margin-top:-2px;
+}*/
+
 /*...............*/
 
 
@@ -198,6 +238,7 @@ li{
 .footer {
     width: 100%;
     height: 60px;
+	z-index:-5;
     background: #6f6f6f url(image/footer_red.jpg) repeat-x;
     float: left;
     font : bold 12px tahoma,verdana ;
@@ -210,6 +251,7 @@ li{
 .footer_login {
     width: 100%;
     height: 60px;
+	z-index:-5;
     background: #6f6f6f url(image/footer_blue.jpg) repeat-x;
     float: left;
     font : bold 12px tahoma,verdana ;
@@ -222,6 +264,7 @@ li{
 .footer_signup {
     width: 100%;
     height: 60px;
+	z-index:-5;
     background: #6f6f6f url(image/footer_green.jpg) repeat-x;
     float: left;
     font : bold 12px tahoma,verdana ;
