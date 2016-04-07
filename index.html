@@ -2,6 +2,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <link href="Style.css" rel="stylesheet" type="text/css" />
+    <script src="javascript/jquery-1.12.0.min.js" type="text/javascript"></script>
+    <script src="javascript/responsiveslides.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function (e) {
+            $("#slider").responsiveSlides({
+                speed: 400,
+                auto: true,
+                namespace: "callBack",
+                nav: true
+            });
+        });
+    </script>
    
     <title>جستجو مشاغل</title>
 </head>
@@ -51,9 +63,42 @@
     </div>
 
 	<div class="main">
-</div>
+    	
+        <ul class="slide" id="slider">
+            <li><img src="Image/slider/slider1.jpg" /></li>
+            <li><img src="Image/slider/slider2.jpg" /></li>
+            <li><img src="Image/slider/slider3.jpg" /></li>
+            <li><img src="Image/slider/slider4.jpg" /></li>
+            <li><img src="Image/slider/slider5.jpg" /></li>
+        </ul>
+        <br/>
+   		<div class="hashie_bottom" align="center"></div>
+        <div class="search" align="center">
+    	<form action="result.html">
+            <label for="search"><h3> جستجو</h3></label>
+            <br />
+            <input type="text" id="search" name="search">
+            <br />
+            <input type="radio" name="type" value="employee" checked> کارجو
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ 			<input type="radio" name="type" value="employer">  کارفرما
+            <br>
+            <button type="submit" name="submit" value="register" class="button button1"> جستجو</button>
+        </form>
+        </div>
+        <div class="hashie_bottom" align="center"></div>
+        <p> <h3>راهنما: <br/></h3>
+        سرویس جستجو بر اساس ویژگی های مورد نظر است. <br/>
+        برای مثال : <br/>
+        متن ورودی برای جستجو کار مورد نظر : طراح وب سایت<br/>
+        متن ورودی برای چستجو کارجو مورد نظر : php<br/>
+        </p>
+        <br/>
+        <br/>
+        <br/>
+	</div>
 
-    <div class="footer">
+    <div class="footer" >
         <br />
         <br />
         

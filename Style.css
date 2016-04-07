@@ -18,12 +18,28 @@ body {
     background : #daeaf0 url(image/bg.jpg) repeat ;
 
 }
+
+.search
+{
+	margin-top: 20px;
+	margin-bottom: 20px; 
+	width:100%;
+}
+
+.slide
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width:100%;
+	height: 400px;	
+}
+
 .callBack li{
     list-style:none ;
 }
 .callBack_nav{
     position:absolute;
-    top:50%;
+    top:60%;
     left:120px;
     opacity:1;
     z-index:3;
@@ -316,10 +332,11 @@ ul.skills li {
     background: #6f6f6f url(image/footer_red.jpg) repeat-x;
     float: left;
     font : bold 12px tahoma,verdana ;
-  /*  position:absolute;*/
     color:#000000;
     text-align:center;
     margin-top: 70px;
+	
+	
 }
 
 .footer_login {
